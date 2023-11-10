@@ -1,0 +1,52 @@
+/* .box1:hover{
+    background-color: blue;
+    width: 100%;
+}
+.box1{
+    transition: all 0s;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-delay: 5s;
+
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   */
+
+  /* .box1:hover {
+    animation-name: rotate;
+    transition:transform 0s ease-in-out 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+   
+
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: width(0%);
+    }
+    
+    50% {
+        transform: scale(1.5);
+    }  
+  
+    100% {
+        transform: scale(2);    }
+    
+  
+  } */
+  
+  .box1 {
+    background: #b3ffab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b3ffab, #12fff7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b3ffab, #12fff7);
+  }
+  
